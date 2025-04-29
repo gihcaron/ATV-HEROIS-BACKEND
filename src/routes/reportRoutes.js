@@ -3,6 +3,6 @@ const router = express.Router();
 const reportController = require("../controllers/reportController");
 
  // Rota para exportar relatório em PDF
- router.get("/report/pdf", reportController.exporteditoraPDF);
+ router.get("/report/pdf", reportController.exportHeroiPDF);
  
  module.exports = router;
